@@ -1,0 +1,65 @@
+
+#definition {
+	background-color: cyan;
+	width: 40%;
+	margin: 20px;
+	padding: 10px;	
+	font-family: monospace;
+	font-size: 15px;
+}
+h1{
+	font-family: cursive;
+}
+h2 {
+	font-family: cursive;	
+}
+
+#box1 {
+	border-top: solid;
+	width: 25%;
+	height: 100%;
+	overflow: scroll;
+	position: fixed;
+	background-color: blue;
+
+}
+#box1 a {
+ 	color: inherit;
+ 	text-decoration: none; 
+ 	border-top: solid;
+	line-height: 80px;
+	font-size: 130%;
+	font-family: cursive;
+	background-color: skyblue;
+
+}
+#box2 {
+	font-family: cursive;
+	margin-left: -15px; 
+	position: fixed;
+	left: 27%;
+	height: 100%;
+	width: 72%;
+	padding: 5px;
+	font-size: 20px;
+	overflow: scroll; 
+	background-color: cyan;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: column;
+	line-height: 40px;
+}
+
+#main-doc {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	height: 100%;
+
+}
+#last {
+	font-size: 20px;
+	text-decoration: none;
+}
